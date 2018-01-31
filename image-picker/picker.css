@@ -1,0 +1,54 @@
+.container{
+  width:40%;
+  border:1px solid gray;
+  overflow: hidden;
+  display: inline-block;
+ 
+}
+img{
+  width:100%;
+  height:100%;
+}
+
+.first-box{
+  width:50%;
+  height:640px;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.second-box{
+  width:50%;
+  height:320px;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+}
+.third-box{
+  float: right;
+  width:50%;
+  height:320px;
+  display: block;
+  cursor: pointer;
+}
+
+.container2{
+  width:20%;
+  /*margin-right: 20%;*/
+  display: inline-block;
+  border:1px solid gray;
+  height: 640px;
+}
+
+.container2 img{
+  width:100%;
+  height:100%;
+}
+#wrap{
+  width:60%;
+  margin: auto;
+}
+
+.container2.yellow{
+  background-color: yellow;
+}
